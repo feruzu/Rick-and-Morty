@@ -18,7 +18,7 @@
 }
 
 #pag {
-    width: 200px;
+    width: 220px;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
@@ -29,14 +29,21 @@
     border: none;
     font-weight: bold;
     margin-bottom: 4rem;
-    font-size: 1rem;
+    font-size: 15px;
+}
+
+#pag button:hover {
+    background-color: #161616;
+}
+
+#pag button:active {
+    background-color: #A5CF61;
 }
 
 h2.nombre {
     font-size: 1.3rem;
     font-weight: 300;
     color: white;
-    font-weight: 300;
 }
 
 img {

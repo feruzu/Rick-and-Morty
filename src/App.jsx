@@ -6,8 +6,8 @@ import Personajes from './components/Personajes';
 function App() {
 
   return (
-    <Container>
-      <h1>Rick y Morty</h1>
+    <Container className='container'>
+      <h1 className='titulo'>Rick and Morty</h1>
       <Personajes/>
     </Container>
   )
